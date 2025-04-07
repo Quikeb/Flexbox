@@ -7,3 +7,118 @@
 body{
   font-family: sans-serif;
   }
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  }
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  border-bottom: 1px solid darkslateblue;
+  
+  }
+
+h1{
+  color: darkslategrey;
+}
+
+nav{
+  display: flex;
+  gap: 1rem;
+}
+a{
+  font-weight: bold;
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: lightgreen;
+}
+
+main{
+  flex-grow: 1;
+  display: flex;
+  
+}
+aside{
+  padding: 1rem;
+background-color: azure;  
+}
+h2{
+  color: darkslateblue;
+  margin-bottom: 2rem;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  color: rgb(12, 9, 33);
+}
+
+section{
+  padding: 1rem;
+
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+  background-color: darkslateblue;
+}
+
+.card{
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(from color 249 251 255);
+  cursor: pointer;
+}
+
+img{
+  border-radius:0.5rem;
+}
+
+h3{
+  margin: 0.5rem 0;
+  color: darkslateblue;
+}
+
+.card:hover{
+  background-color: rgb(215, 198, 242);
+}
+
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ padding: 1rem;
+}
+
+.Copyright {
+color: darkslateblue;
+ 
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.socialmedia a {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
